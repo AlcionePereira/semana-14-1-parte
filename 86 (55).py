@@ -4,12 +4,6 @@
 #POPULAÇÃO: 290639 IBGE: 270030 - Arapiraca(AL) - POPULAÇÃO: 202398
 #IBGE: 270040 - Atalaia(AL) - POPULAÇÃO: 50323 ...
 
-
-
-
-
-
-
 def carrega_cidades():
     resultado = []
     with open('cidades.csv', 'r', encoding='utf-8') as arquivo:
