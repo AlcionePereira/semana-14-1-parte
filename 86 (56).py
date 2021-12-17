@@ -2,12 +2,6 @@
 # que fazem aniversário nessa data. Veja o exemplo para o dia 9 e mês 2: CIDADES
 # QUE FAZEM ANIVERSÁRIO EM 9 DE FEVEREIRO: São Miguel do Passa Quatro(GO)
 # Centralina(MG) Itaporanga(PB) ...
-
-
-
-
-
-
 def carrega_cidades():
     resultado = []
     with open('cidades.csv', 'r', encoding='utf-8') as arquivo:
