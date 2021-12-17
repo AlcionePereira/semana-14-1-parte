@@ -5,9 +5,6 @@
 # Itacoatiara(AM) tem 84676 habitantes e faz aniversário em 25 de abril. Araci(BA)
 # tem 51912 habitantes e faz aniversário em 7 de abril. Fortaleza(CE) tem 2431415
 # habitantes e faz aniversário em 13 de abril. ...
-
-
-
 def carrega_cidades():
     resultado = []
     with open('cidades.csv', 'r', encoding='utf-8') as arquivo:
